@@ -1,5 +1,5 @@
 import socket,keyboard
-serverAddressPort = ("192.168.137.224", 9999)
+serverAddressPort = ("192.168.0.104", 9999)
 UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 thr = 0
 kp = 175
